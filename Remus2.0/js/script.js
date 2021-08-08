@@ -110,7 +110,7 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  //! PRODUCT JS
+  //! PRODUCT slick JS
 
   $(document).ready(function () {
     $(".slider-for").slick({
