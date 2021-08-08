@@ -597,15 +597,17 @@
 
   .shop-products {
     margin: 0 auto;
+    width: 110%;
+  }
+
+  .shop-products img {
+    width: 100%;
   }
 
   .tabs__content {
     grid-gap: 20px;
     grid-template-columns: auto;
   }
-
-  /* .product-info-mobile {
-  } */
 
   .product-desc {
     background-color: #000;
