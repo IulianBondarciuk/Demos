@@ -913,7 +913,7 @@ fieldset:nth-child(4) legend {
   position: absolute;
   top: 22px;
   right: -3px;
-  bottom: 0;
+  bottom: -1px;
 }
 
 .submit-borderBottom {
