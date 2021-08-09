@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .container {
     width: 96%;
   }
@@ -91,7 +91,7 @@
     height: 100%;
     overflow: auto;
     background-color: #151413;
-    padding-top: 103px;
+    padding-top: 123px;
     transition: all 0.3s ease 0s;
 
     z-index: 2;
@@ -107,7 +107,12 @@
     border-bottom: 1px solid rgba(222, 166, 22, 0.7);
     padding-bottom: 11px;
     padding-top: 11px;
-    width: 253px;
+    width: 702px;
+  }
+
+  .nav__list li {
+    display: flex;
+    justify-content: flex-end;
   }
 
   .nav__list li:last-child {
@@ -388,9 +393,85 @@
   }
 }
 /* 320px - 576px */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 730px) {
   .container {
     width: 90%;
+  }
+
+  .header__burgher {
+    display: block;
+    position: absolute;
+    top: 2vh;
+    right: 0;
+    width: 25px;
+    height: 20px;
+    z-index: 3;
+  }
+  .header__burgher span {
+    position: absolute;
+    background-color: #dea616;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header__burgher::before,
+  .header__burgher::after {
+    content: "";
+    background-color: #dea616;
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    transition: all 0.5s ease 0s;
+  }
+  .header__burgher::before {
+    top: 0;
+    right: 0;
+  }
+  .header__burgher::after {
+    bottom: 0;
+    left: 0;
+  }
+  .nav {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #151413;
+    padding-top: 103px;
+    transition: all 0.3s ease 0s;
+
+    z-index: 2;
+  }
+  .nav.active {
+    top: 0;
+  }
+  .nav__list {
+    display: block;
+  }
+  .nav__list li {
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(222, 166, 22, 0.7);
+    padding-bottom: 11px;
+    padding-top: 11px;
+    width: 253px;
+  }
+
+  .nav__list li {
+    display: block;
+  }
+
+  .nav__list li:last-child {
+    border: none;
+  }
+
+  .nav__link a {
+    color: #fff;
+    font-size: 16px;
   }
 
   .navline:after {
