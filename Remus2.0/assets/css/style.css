@@ -708,6 +708,10 @@ fieldset:nth-child(4) legend {
   color: #dea616;
 }
 
+.catalog-responsive {
+  display: none;
+}
+
 .catalog-wrapper {
   display: flex;
   justify-content: space-between;

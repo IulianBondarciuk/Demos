@@ -200,6 +200,14 @@
     color: #ffffff;
   }
 
+  .catalog {
+    display: none;
+  }
+
+  .catalog-responsive {
+    display: block;
+  }
+
   .title-catalog {
     padding-top: 65px;
   }
@@ -233,6 +241,10 @@
   }
 
   .praise {
+    display: none;
+  }
+
+  .praise-responsive-tablet {
     display: none;
   }
 
@@ -307,7 +319,12 @@
     color: #ffffff;
   }
 
+  .catalog-responsive {
+    display: none;
+  }
+
   .catalog {
+    display: block;
     background-color: #fff;
     padding-bottom: 30px;
   }
