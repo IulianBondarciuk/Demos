@@ -86,11 +86,11 @@
 }
 
 .tabs__content {
-  display: none !important; /* по умолчанию прячем все блоки */
+  display: none !important;
 }
 
 .tabs__content.active {
-  display: grid !important; /* по умолчанию показываем нужный блок */
+  display: grid !important;
 }
 
 .product-desc {

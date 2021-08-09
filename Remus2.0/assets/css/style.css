@@ -94,6 +94,7 @@ a {
 /* === BUTTON === */
 
 #button {
+  display: block;
   position: relative;
   background: #151413;
   width: 275px;
@@ -117,6 +118,9 @@ a {
 }
 
 .border-button {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
   text-decoration: none;
   display: inline-block;
   padding: 13px 75px;
@@ -485,6 +489,10 @@ a {
   background-color: #fff;
 }
 
+.praise-wrap {
+  display: none;
+}
+
 .title-left {
   font-family: "KoHo", sans-serif;
   font-weight: 200;
@@ -549,6 +557,10 @@ fieldset:nth-child(3) legend {
 
 fieldset:nth-child(4) legend {
   margin-right: -62px;
+}
+
+.tcontainer {
+  display: none;
 }
 /* ==== / Praise ==== */
 
@@ -1157,31 +1169,3 @@ footer .phone-f p {
 }
 
 /* / Footer  */
-
-/* Responsive */
-
-@media screen and (max-width: 1440px) {
-  .container {
-    width: 1200px;
-  }
-
-  .head-image img {
-    width: 90%;
-  }
-
-  .intro {
-    width: 400px;
-  }
-
-  .work img {
-    width: 90%;
-  }
-
-  .two-items img {
-    width: 90%;
-  }
-
-  .one-item img {
-    width: 90%;
-  }
-}
