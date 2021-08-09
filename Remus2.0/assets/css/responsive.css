@@ -1,4 +1,3 @@
-/* 768px */
 @media screen and (max-width: 1200px) {
   .container {
     width: 96%;
@@ -371,12 +370,48 @@
   .head-f .logo p {
     display: none;
   }
+
+  .nav__list-f li {
+    margin: 0 0 0 28px;
+  }
+
+  .nav__list-f li:first-child {
+    margin: 0;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  footer {
+    padding: 65px 0;
+  }
 }
 /* 320px - 576px */
 @media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+
+  .navline:after {
+    content: "";
+    position: absolute;
+    top: 5vh;
+    right: 0;
+    left: auto;
+    bottom: 0;
+    width: 90vw;
+    border-bottom: 1px solid rgba(222, 166, 22, 0.6);
+  }
+
   .offer {
     padding-bottom: 60px;
   }
+
+  .offer::after {
+    width: 90vw;
+  }
+
   .mobile-responsive-title {
     display: block;
     margin-top: 75px;
@@ -771,6 +806,10 @@
     display: none;
   }
 
+  .left-work {
+    display: block;
+  }
+
   .left-work-image {
     margin-bottom: -4px;
   }
@@ -801,15 +840,11 @@
   }
 
   .left-work-text {
-    padding-left: 15px;
+    padding: 50px 15px;
   }
 
   .left-work-text h2 {
     margin-bottom: 25px;
-  }
-
-  .left-work-text p {
-    margin-bottom: 50px;
   }
 
   .doing-services {
