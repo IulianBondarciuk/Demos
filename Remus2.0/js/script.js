@@ -121,7 +121,7 @@ window.addEventListener("DOMContentLoaded", () => {
       asNavFor: ".slider-nav",
       responsive: [
         {
-          breakpoint: 480,
+          breakpoint: 800,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -139,7 +139,7 @@ window.addEventListener("DOMContentLoaded", () => {
       focusOnSelect: true,
       responsive: [
         {
-          breakpoint: 480,
+          breakpoint: 800,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
