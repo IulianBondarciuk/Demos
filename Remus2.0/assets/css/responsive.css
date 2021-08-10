@@ -47,6 +47,12 @@
     z-index: 4;
   }
 
+  .logo p {
+    font-size: 14px;
+    line-height: 136%;
+    margin-left: 17px;
+  }
+
   .header__burgher {
     display: block;
     position: absolute;
@@ -1235,6 +1241,7 @@
 
   .product2 img {
     width: 109%;
+    margin-bottom: 0;
   }
 
   .product1.slick-slide {
@@ -1249,11 +1256,19 @@
     padding-bottom: 0;
   }
 
+  .about-info {
+    width: 100%;
+  }
+
   .about-title {
     margin-top: 20px;
     margin-bottom: 20px;
 
     padding-bottom: 0;
+  }
+
+  .about-aditionalInfo {
+    margin-bottom: 20px;
   }
 
   .chose-colors {
