@@ -142,7 +142,7 @@
   .navline:after {
     content: "";
     position: absolute;
-    top: 7vh;
+    top: 5vh;
     right: 0;
     left: auto;
     bottom: 0;
