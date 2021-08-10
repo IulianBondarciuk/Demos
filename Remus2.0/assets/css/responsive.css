@@ -61,7 +61,7 @@
   .header__burgher {
     display: block;
     position: absolute;
-    top: 2vh;
+    top: 1.5vh;
     right: 0;
     width: 25px;
     height: 20px;
@@ -102,7 +102,7 @@
     height: 100%;
     overflow: auto;
     background-color: #151413;
-    padding-top: 123px;
+    padding-top: 95px;
     transition: all 0.3s ease 0s;
 
     z-index: 2;
@@ -153,7 +153,7 @@
   .navline:after {
     content: "";
     position: absolute;
-    top: 5vh;
+    top: 3vh;
     right: 0;
     left: auto;
     bottom: 0;
@@ -240,7 +240,7 @@
 
   .arrow-back {
     padding-bottom: 25px;
-    padding-top: 40px;
+    padding-top: 30px;
   }
 
   /* about-us page */
