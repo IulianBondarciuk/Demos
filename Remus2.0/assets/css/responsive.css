@@ -142,7 +142,7 @@
   .navline:after {
     content: "";
     position: absolute;
-    top: 5vh;
+    top: 7vh;
     right: 0;
     left: auto;
     bottom: 0;
@@ -452,7 +452,7 @@
   /* Responsive for product page */
 
   .about-wrapper {
-    flex-direction: column;
+    justify-content: space-between;
   }
 
   .about-grid .slick-list {
@@ -464,11 +464,16 @@
   }
 
   .product1 img {
-    width: 48%;
+    width: 100%;
   }
 
   .product2 img {
-    width: 47%;
+    width: 110%;
+    margin-bottom: 45px;
+  }
+
+  .product2 {
+    width: 108px !important;
   }
 
   .product1.slick-slide {
@@ -479,16 +484,40 @@
     margin-right: 10px !important;
   }
 
+  .about-images {
+    width: 354px !important;
+  }
+
   .about-wrapper {
     padding-bottom: 0;
-    /* flex-direction: row; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-info {
+    width: 49%;
   }
 
   .about-title {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 136%;
+    margin-top: 0;
+    margin-bottom: 10px;
 
     padding-bottom: 0;
+  }
+
+  .about-aditionalInfo {
+    margin-bottom: 30px;
+  }
+
+  .delivery-free img,
+  .delivery-fast img {
+    margin-right: 18px;
+  }
+
+  .information {
+    padding-bottom: 40px;
   }
 
   .chose-colors {
@@ -499,9 +528,15 @@
     display: none;
   }
 
+  .like-it {
+    font-family: "Poiret One", cursive;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
   .delivery-mobile-responsive {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 43px;
   }
 
   .sumbit-btn-wrapper.about-btn {
@@ -522,7 +557,7 @@
   }
 
   .nav__list-f li:first-child {
-    margin: 0;
+    margin-left: 0;
   }
 
   body {
