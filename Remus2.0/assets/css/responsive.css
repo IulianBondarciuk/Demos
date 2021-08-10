@@ -56,7 +56,7 @@
   .header__burgher {
     display: block;
     position: absolute;
-    top: 1.5vh;
+    top: 2vh;
     right: 0;
     width: 25px;
     height: 20px;
@@ -583,7 +583,7 @@
   .header__burgher {
     display: block;
     position: absolute;
-    top: 2vh;
+    top: 1.5vh;
     right: 0;
     width: 25px;
     height: 20px;
