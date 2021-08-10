@@ -9,6 +9,13 @@
     color: #fff;
   }
 
+  .nav__link:hover a {
+    padding-bottom: 0;
+    border-bottom: none;
+    transition: none;
+    color: #fff;
+  }
+
   .header {
     padding-bottom: 0;
   }
@@ -121,16 +128,15 @@
     width: 702px;
   }
 
-  .nav__list li {
-    display: flex;
-    justify-content: flex-end;
-  }
-
   .nav__list li:last-child {
     border: none;
   }
 
   .nav__link a {
+    display: block;
+    text-align: end;
+    width: 702px;
+
     color: #fff;
     font-size: 16px;
   }
@@ -657,6 +663,10 @@
   }
 
   .nav__link a {
+    display: block;
+    text-align: start;
+    width: 253px;
+
     color: #fff;
     font-size: 16px;
   }
