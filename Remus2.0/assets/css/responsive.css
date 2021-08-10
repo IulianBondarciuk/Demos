@@ -47,6 +47,11 @@
     z-index: 4;
   }
 
+  .logo img {
+    width: 35px;
+    height: 47.22px;
+  }
+
   .logo p {
     font-size: 14px;
     line-height: 136%;
