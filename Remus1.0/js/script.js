@@ -1,12 +1,12 @@
-import forms from "./modules/forms";
-import checkTextInputs from "./modules/checkTextInputs";
+// import forms from "./modules/forms";
+// import checkTextInputs from "./modules/checkTextInputs";
 
 window.addEventListener("DOMContentLoaded", () => {
   "use strict";
 
-  forms();
-  checkTextInputs('[name="name"]');
-  checkTextInputs('[name="message"]');
+  // forms();
+  // checkTextInputs('[name="name"]');
+  // checkTextInputs('[name="message"]');
 
   let modalState = {};
 
