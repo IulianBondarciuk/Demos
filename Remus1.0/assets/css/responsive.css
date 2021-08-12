@@ -75,6 +75,15 @@
     height: 20px;
     z-index: 3;
   }
+
+  .products__burgher {
+    top: 0;
+  }
+
+  .mobile-burgher {
+    margin-bottom: 50px;
+  }
+
   .header__burgher span {
     position: absolute;
     background-color: #dea616;
@@ -102,7 +111,26 @@
     bottom: 0;
     left: 0;
   }
-  .nav {
+
+  .products__burgher::before {
+    content: url(../img/common/filter.png);
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+  }
+
+  .navi-product-resp h3 {
+    font-family: "Poiret One", cursive;
+    font-size: 20px;
+    line-height: 100%;
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .nav,
+  .navi-product-resp {
     position: fixed;
     top: -100%;
     left: 0;
@@ -115,14 +143,16 @@
 
     z-index: 2;
   }
-  .nav.active {
+  .nav.active,
+  .navi-product-resp.active {
     top: 0;
   }
   .nav__list,
   .nav__list-product {
     display: block;
   }
-  .nav__list li {
+  .nav__list li,
+  .nav__list-product li {
     margin: 0 auto;
     border-bottom: 1px solid rgba(222, 166, 22, 0.7);
     padding-bottom: 11px;
@@ -130,17 +160,28 @@
     width: 702px;
   }
 
-  .nav__list li:last-child {
+  .nav__list-product li {
+    width: 500px;
+  }
+
+  .nav__list li:last-child,
+  .nav__list-product li:last-child {
     border: none;
   }
 
-  .nav__link a {
+  .nav__link a,
+  .nav__link-product a {
     display: block;
     text-align: end;
     width: 702px;
 
     color: #fff;
     font-size: 16px;
+  }
+
+  .nav__link-product a {
+    width: 500px;
+    text-align: center;
   }
 
   #button {
@@ -161,7 +202,7 @@
   .navline:after {
     content: "";
     position: absolute;
-    top: 3vh;
+    top: 4vh;
     right: 0;
     left: auto;
     bottom: 0;
@@ -407,9 +448,13 @@
     display: block;
   }
 
+  .shop-wrapper {
+    flex-direction: column;
+  }
+
   .shop-products {
     margin: 0 auto;
-    width: 110%;
+    width: 100%;
   }
 
   .shop-products img {
@@ -660,6 +705,15 @@
   .header__burgher::after {
     bottom: 0;
     left: 0;
+  }
+
+  .products__burgher {
+    top: 0;
+    z-index: 2;
+  }
+
+  .mobile-burgher {
+    margin-bottom: 50px;
   }
 
   .nav.active {
