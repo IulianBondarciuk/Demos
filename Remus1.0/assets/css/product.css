@@ -7,6 +7,10 @@
   padding-bottom: 40px;
 }
 
+.mobile-burgher {
+  display: none;
+}
+
 .shop-wrapper {
   display: flex;
   padding-bottom: 100px;

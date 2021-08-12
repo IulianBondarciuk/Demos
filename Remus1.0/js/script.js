@@ -29,6 +29,20 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  $(document).ready(function () {
+    $(".products__burgher").click(function (event) {
+      $(".products__burgher, .navi-product-resp").toggleClass("active");
+      $("body").toggleClass("lock");
+    });
+  });
+
+  $(document).ready(function () {
+    $(".nav__link-product").click(function (event) {
+      $(".products__burgher, .navi-product-resp").removeClass("active");
+      $("body").removeClass("lock");
+    });
+  });
+
   //! Top Slider
 
   $(document).ready(function () {
@@ -73,26 +87,6 @@ window.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-
-  //! Anchor to another page
-
-  $(document).ready(function () {
-    if (window.location.hash != "") {
-      // Get the hash value and remove the # from it.
-      var hash = window.location.hash.substr(1);
-      console.log(hash);
-
-      // In the nav-tabs,
-      // find the right tab by targetting the `h4` which contains the word you used has a hash
-      // and click it.
-      $(".nav-product")
-        .find("a:constains('" + hash + "')")
-        .click();
-
-      // let cry = find("a:constains('" + scaune + "')");
-      // console.log(cry);
-    }
-  });
 
   //! PRODUCT JS
 
