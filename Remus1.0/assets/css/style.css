@@ -89,6 +89,10 @@ a {
   margin: 0 auto;
 }
 
+.lock {
+  overflow-y: hidden;
+}
+
 /* === COMON === */
 
 /* === BUTTON === */
