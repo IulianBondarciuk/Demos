@@ -3,6 +3,10 @@
     width: 96%;
   }
 
+  .head {
+    z-index: 21 !important;
+  }
+
   .nav__link.active a {
     padding-bottom: 0;
     border-bottom: 0;
