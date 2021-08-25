@@ -112,13 +112,37 @@
     left: 0;
   }
 
-  .products__burgher::before {
+  .products__burgher {
+    display: flex !important;
+    align-items: center !important;
+    width: auto !important;
+    height: auto !important;
+    z-index: 1 !important;
+  }
+
+  .products__burgher img {
+    padding-top: 2px;
+  }
+
+  .products__burgher span {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 136%;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 2px;
+    margin-right: 8px;
+
+    border-bottom: 1px solid rgba(222, 166, 22, 0.75);
+  }
+
+  /* .products__burgher::before {
     content: url(../img/common/list.png);
     position: absolute;
-    width: 100%;
     top: 0px;
-    right: 6px;
-  }
+    right: 0px;
+  } */
 
   .navi-product-resp h3 {
     font-family: "Poiret One", cursive;
