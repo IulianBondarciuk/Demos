@@ -82,8 +82,8 @@
   .products__burgher {
     display: block;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 36px;
+    right: 0;
     width: 25px;
     height: 20px;
     z-index: 2;
