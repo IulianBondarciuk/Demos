@@ -74,7 +74,8 @@ h6 {
   margin: 0;
 }
 
-h5 span {
+h5,
+h2 span {
   color: #dea616;
 }
 
