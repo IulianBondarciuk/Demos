@@ -148,3 +148,7 @@
   width: auto;
   height: auto;
 }
+
+.tabs-title {
+  display: none;
+}

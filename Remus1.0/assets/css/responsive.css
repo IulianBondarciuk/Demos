@@ -474,7 +474,13 @@
     display: block;
   }
 
+  .shop.tabs .container .arrow-back {
+    display: none;
+  }
+
   .tabs-title {
+    display: block;
+
     font-family: "Poiret One", cursive;
     font-style: normal;
     font-weight: normal;
@@ -700,6 +706,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    right: auto;
     width: 25px;
     height: 20px;
     z-index: 2;
