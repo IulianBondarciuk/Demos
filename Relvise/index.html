@@ -15,19 +15,22 @@
         <header class="header">
             <div class="header__container _container">
                 <a href="#" class="header__logo">Relvise</a>
+                <div class="header__burgher">
+                    <span></span>
+                </div>
                 <nav class="header__menu menu">
                     <ul class="menu__list">
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Home</a>
+                            <a href="#" class="menu__link active">Home</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Product</a>
+                            <a href="#products" class="menu__link">Product</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Pricing</a>
+                            <a href="#practice" class="menu__link">Practice</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Contact</a>
+                            <a href="#contact" class="menu__link">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -84,7 +87,7 @@
                     </div>
                 </div>
             </section>
-            <section class="page__advantages advantages">
+            <section class="page__advantages advantages" id="products">
                 <div class="advantages__container _container">
                     <div class="advantages__header header-block">
                         <h2 class="header-block__title">Designing Better Experience</h2>
@@ -133,7 +136,7 @@
                     </div>
                 </div>
             </section>
-            <section class="page__practice practice">
+            <section class="page__practice practice" id="practice">
                 <div class="practice__container _container">
                     <div class="practice__header header-block">
                         <h2 class="header-block__title">Practice Advice</h2>
@@ -332,7 +335,7 @@
                     </div>
                 </div>
             </section>
-            <section class="page__contact contact">
+            <section class="page__contact contact" id="contact">
                 <div class="contact__container _container">
                     <div class="contact__body">
                         <div class="contact__content">
@@ -458,6 +461,7 @@
         </footer>
     </div>
 
+    <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
