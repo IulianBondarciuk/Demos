@@ -1,0 +1,74 @@
+/* Обнуление */
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html, body {
+    height: 100%;
+    line-height: 1;
+}
+
+/* ===================================================== */
+
+
+@font-face {
+    font-family: pixel;
+    src: url(./pixograd-font/Pixograd-nKdM.ttf);
+}
+
+
+body {
+    background-color: #000;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.about h1 {
+    color: #fff;
+    font-family: pixel;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50%;
+}
+
+.about img {
+    margin-top: 30%;
+    width: 300px;
+}
+
+
